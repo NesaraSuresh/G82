@@ -1,8 +1,8 @@
 import numpy as np
 import mujoco
 
-WHEEL_R = 0.033     # wheel radius (m)
-WHEEL_SEP = 0.288   # distance between wheels (m)
+WHEEL_R = 0.0282      # effective (calibrated) radius
+WHEEL_SEP = 0.3558    # effective (calibrated) separation
 
 
 class SimEnv:
